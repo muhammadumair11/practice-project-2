@@ -30,8 +30,8 @@
 }
 .nav-link:active,
 .dropdown-item:active,
-.nav-link:hover,
-.dropdown-item:hover {
+.nav-link:hover
+ {
     color: white !important;
 }
 .carousel > img {
