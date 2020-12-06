@@ -1,0 +1,160 @@
+.upper-navitems {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.upper-navitems p {
+    padding: 10px;
+    margin: 0;
+}
+
+.lower-navitems {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lower-navitems * {
+    padding: 10px;
+    margin: 10px;
+}
+
+.brand-text {
+    font-size: 2rem !important;
+}
+
+.nav-flex {
+    width: 100%;
+}
+.nav-flex * {
+    padding-left: 10px !important;
+}
+.nav-link:active,
+.dropdown-item:active,
+.nav-link:hover,
+.dropdown-item:hover {
+    color: white !important;
+}
+.carousel > img {
+    height: 80vh;
+    width: auto;
+}
+
+.third-content {
+    display: flex;
+    justify-content: center;
+}
+.third-content i {
+    font-size: 2.5rem;
+    align-self: center;
+    border-radius: 20px;
+    margin: 1rem;
+    padding: .7rem;
+    
+}
+.umbrella {
+    color: #4783F3;
+    border: 1px solid #4783F3;
+}
+.id-card {
+    color: #f1a033;
+    border: 1px solid #f1a033;
+}
+.handshake {
+    color: #2E3E77;
+    border: 1px solid #2E3E77;
+}
+.third-content h2 { 
+    font-size: 1rem;
+    color: #DD4B44;
+        word-wrap: break-word;
+}
+.third-content p {
+    font-size: .8rem;
+        word-wrap: break-word;
+}
+
+.third-column {
+    padding: 3rem;
+}
+.third-container {
+    border-bottom: 1px solid #aaa;
+}
+
+
+.row {
+    padding: 1rem;
+}
+
+.card-title:hover {
+    color: black !important;
+    cursor: pointer;
+}
+.card-title-second:hover {
+    color: #DD4B44 !important;
+    cursor: pointer;
+}
+.card-text {
+    font-size: .8rem;
+}
+
+.container-inner {
+    padding: 4rem;
+}
+
+
+.bottom-carousel * { 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bottom-carousel p:not(.job) {
+    padding: 2rem;
+}
+.job {
+    font-size: .9rem;
+}
+.bottom-carousel img {
+    width: 5rem !important;
+    margin-bottom: 1rem;
+    border: 3px solid #DD4B44;
+}
+
+.icon-size {
+    font-size: 1.5rem !important;
+}
+
+.footer-img img {
+    width: 30%;
+    height: auto;
+}
+
+.list-link {
+    display: flex;
+    justify-content: space-between;
+    
+    list-style: none;
+}
+.list-link li a {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.list-link li a:hover {
+    color: #aaa;
+}
+
+@media (max-width: 990px) {
+    .upper-navitems {
+        display: flex;
+        flex-direction: column;
+    }
+    .upper-navitems p {
+        border-bottom: 1px solid white;
+    }
+    .upper-navitems, .lower-navitems {
+        display: flex;
+        justify-content: center;
+    }
+}
