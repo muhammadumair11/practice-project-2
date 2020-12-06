@@ -146,6 +146,9 @@
 }
 
 @media (max-width: 990px) {
+    .brand-text {
+        font-size: 1rem !important;
+    }
     .upper-navitems {
         display: flex;
         flex-direction: column;
@@ -156,5 +159,9 @@
     .upper-navitems, .lower-navitems {
         display: flex;
         justify-content: center;
+    }
+    .list-link {
+        display: block;
+        padding: 0;
     }
 }
